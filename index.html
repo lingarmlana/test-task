@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="col-3 offset-5">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="musicSearch" aria-label="Search term" aria-describedby="basic-addon">
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary" id="btn-search" type="button" onclick="musicSearch()"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="container-fluid conteiner-title">
+                    <div class="row">
+                        <div class="col-2">
+                            Artist
+                        </div>
+                        <div class="col-3">
+                            Track
+                        </div>
+                        <div class="col-2">
+                            Collection
+                        </div>
+                        <div class="col-2">
+                            Genre
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel-group" id="Accordion" name="musicCatalog" role="tablist" aria-multiselectable="true"></div>
+
+    <script src="js/script.js" async></script>
+    <script src="js/jquery.min.js" async></script>
+    <script src="js/bootstrap.js" async></script>
+  </body>
+</html>

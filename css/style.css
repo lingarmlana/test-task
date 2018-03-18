@@ -1,0 +1,54 @@
+body {
+	background-color: #EEF7FF;
+	padding: 10px;
+}
+
+.img-cover {
+	width: 100px;
+	height: 100px;
+	background-color: #01127A;
+}
+.panel-heading a,
+.conteiner-title,
+#details-name {
+	text-decoration: none;
+	color: #000;
+	font-family: Arial;
+	//font-size: 16pt;
+	//font-weight: bold;
+}
+
+#details-name {
+	color: #4C4E46;
+	font-size: 18pt;
+}
+
+.fa-music{
+	color: #8F8F8E;
+}
+
+.panel-default {
+	padding: 20px;
+}
+
+.cover {
+	padding: 0 15px 0 15px;
+}
+
+#btn-search {
+	color: #000;
+	background-color: #F3F3F3;
+	border-color: #CED4DA;
+}
+
+.container-details {
+	margin-left: 170px;
+}
+
+.conteiner-title {
+	margin: 50px 0 0 185px;
+}
+
+.musicBackground {
+	background: #CCDFF0;
+}
